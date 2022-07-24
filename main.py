@@ -44,7 +44,7 @@ if os.path.isfile(serverprofile) is True: #change serverprofile png to base64
 if os.path.isfile(profile) is True: #change profile png to base64
         with open(profile, "rb") as g:
             profile = "data:image/png;base64," + base64.b64encode(g.read()).decode("ascii")
-            f.close()
+            g.close()
 
 Anime.Fade(Center.Center(start), Colors.red_to_yellow, Colorate.Vertical, interval=0.1, time=1)
 
