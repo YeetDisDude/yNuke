@@ -33,7 +33,7 @@ yNuke - A discord account nuker
   
 # Config.json help
 - toxxmsg
-  - currently not in use but default is set to "im 9"
+  - currently not in use but default is set to "im 9" (it'll be used to manually report the token which will get it disabled)
 - profile
   - profile that will be used for change profile feature, you can change it in the files directory, just make sure the file name is the same in config.json
 - servername
